@@ -1,0 +1,34 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section{
+    border-radius: 10px;
+    width: 500px;
+}
+
+input{
+    border-radius: 5px;
+    border: none;
+    /*background-color: lightblue !important;*/
+    background-color: lightblue;
+}
+
+.form-personal{
+    background-color: coral;
+}
+
+.form-social{
+    background-color: steelblue;
+}
+
+.form-profesional{
+    background-color: aquamarine;
+}
+/*Los estilos se aplican en orden*/
+/* css specificity*/
+.inputstream{
+    background-color: darkblue;
+    color: white;
+}
+
