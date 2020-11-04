@@ -1,0 +1,19 @@
+h1{
+    color: mediumorchid;
+}
+
+h2{
+    color: mediumorchid;
+}
+
+label{
+    color: blue ;
+}
+
+input::placeholder{
+    color: lightskyblue;
+}
+
+input{
+    color: navy;
+}

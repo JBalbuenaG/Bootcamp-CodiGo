@@ -1,0 +1,40 @@
+body{
+    background-image: linear-gradient(to left ,blue, steelblue);
+    color: white;
+}
+
+.red{
+    color: red;
+}
+
+.blue{
+    color: blue;
+}
+
+.yellow{
+    color: yellow;
+}
+/* https://htmlcolorcodes.com/ */
+.azulhex{
+    color: #0000ff ;
+}
+
+.violetahex{
+    color: #9745ce;
+}
+
+.grishex{
+    color: #9c9c9c;
+}
+
+.rosado{
+    color:rgb(235, 172, 235);
+}
+
+.mostaza{
+    color:rgb(179, 155, 49);
+}
+
+.alpha{
+    background-color: rgba(29, 206, 53, 0.247);
+}

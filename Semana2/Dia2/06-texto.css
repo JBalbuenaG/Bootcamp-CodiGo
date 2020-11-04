@@ -1,0 +1,25 @@
+/* https://fonts.google.com/ */
+/* https://www.dafont.com/es/ */
+/* https://www.fontsquirrel.com/*/
+.titulo{
+    font-family: 'Roboto', sans-serif;
+}
+
+.parrafo1{
+    font-family: 'Roboto';
+    font-weight: 400;
+}
+
+.parrafo2{
+    font-family: 'Roboto';
+    text-align: center;
+    line-height: 60px;
+    word-spacing: 10px;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+a{
+    text-decoration: none;
+    color: skyblue;
+}

@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./reto2.css">
+</head>
+<body>
+    <header>
+        <h1>Selectores CSS</h1>
+    </header>
+
+    <main>
+        <h2>Formulario</h2>
+        <form>
+            <fieldset>
+                <legend>Formulario de Creación de un curso</legend>
+                
+                <table>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <label>Nombre del Curso</label>
+                            </td>
+                            <td>
+                                <input type="text" placeholder="Ejem: Vue JS desde cero">
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <td>
+                                <label>Precio del Curso</label>
+                            </td>
+                            <td>
+                                <input type="number" placeholder="Precio en Soles">
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <td>
+                                <label>Fecha de Incio</label>
+                            </td>
+                            <td>
+                                <input type="date">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <label>Correo del Docente</label>
+                            </td>
+                            <td>
+                                <input type="email" placeholder="@tecsup.edu.pe">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td> 
+                                <label>Contraseña</label>
+                            </td>
+                            <td>
+                                <input type="password" placeholder="6 caracteres com mínimo">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <label>Elija Turno</label>
+                            </td>
+                            <td>
+                                Mañana <input type="radio" name="turno"> 
+                                Noche <input type="radio" name="turno"> 
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <td>
+                                <label>Tipo de Pago</label>
+                            </td>
+                            <td>
+                                En Cuotas <input type="radio" name="pago"> 
+                                Directo <input type="radio" name="pago"> 
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <td>
+                                <label>Idiomas del curso</label>
+                            </td>
+                            <td>
+                                Español <input type="checkbox">
+                                Inglés <input type="checkbox">
+                                Portugués <input type="checkbox">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <label>Nivel del Curso</label>
+                            </td>
+                            <td>
+                                <select>
+                                    <option selected>-- Seleccione --</option>
+                                    <option value="1">Básico</option>
+                                    <option value="2">Intermedio</option>
+                                    <option value="3">Avanzado</option>
+                                </select>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <label>Descripción del Curso</label>
+                            </td>
+                            <td>
+                                <textarea cols="20" rows="5">Descripción general del curso</textarea>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <label>Video de Introducción</label>
+                            </td>
+                            <td>
+                                <input type="file">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <label>Color Base del Curso</label>
+                            </td>
+                            <td>
+                                <input type="color">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="submit" value="Crear Curso">
+                            </td>
+                            <td>
+                                <input type="reset" value="Limpiar Formulario">
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </fieldset>
+        </form>
+    </main>
+</body>
+</html>
