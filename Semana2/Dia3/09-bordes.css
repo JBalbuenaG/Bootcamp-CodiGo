@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*Limita todo a los tamaños definidos, sino 
+    solo el contenido tendra el valor que se defina y el resto de padding
+    margin y border se sumaran - Inspeccionar usando F12 para comprobar*/
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.section1, .section2, .section3, .section4, .section5{
+    width: 300px;
+    height: 300px;
+}
+
+.section1{
+    background-color: orange;
+    border-width: 5px;
+    border-color: steelblue;
+    border-style: solid;
+    padding: 10px 20px 30px 40px;
+}
+
+.section2{
+    background-color: #4534ff;
+    border: 4px dotted darkred;
+    border-radius: 15px;
+    /*margin: 30px;*/
+    margin: 10px 20px 30px 40px;
+    padding: 10px;
+}
+
+.section3{
+    background-color: lightseagreen;
+    border: 5px solid gray;
+    border-radius: 50%;
+}
+
+.section4{
+    background-color: purple;
+    border: 5px solid black;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.section5{
+    background-color: lightblue;
+    border: 6px dashed green;
+    border-radius: 10px 30px 60px 120px;
+}

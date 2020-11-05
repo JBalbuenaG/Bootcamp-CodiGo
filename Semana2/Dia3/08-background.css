@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.section1{
+    background-color: #34ff50;
+    height: 300px;
+}
+
+.section2{
+    background-color:lightgray;
+    height: 500px;
+    background-image: url('./background_img_test.jpg');
+    background-size: cover;
+    background-position: center;
+    /*background-attachment: fixed;*/
+}
+
+/* Fotos aletorias https://picsum.photos */
+.section3{
+    height:500px;
+    background-image: url('https://picsum.photos/300/300');
+    background-repeat: no-repeat;
+}
+
+.section4, .section5{
+    height: 500px;
+}
+
+.section4{
+    background-image: linear-gradient(to bottom, blue, red);
+}
+
+.section5{
+    background-image: radial-gradient(circle, blue,red );
+}
