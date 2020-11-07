@@ -1,0 +1,73 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background-color: coral;
+}
+
+header{
+    height:80px;
+    background-image:linear-gradient(to left, crimson, purple);
+    color: white;
+}
+
+.principal{
+    margin: 50px auto 0 auto; /* top, right bottom left*/
+    width:50%;
+    height: 1300px;
+    box-shadow: 0px 0px 20px gray;
+    position: relative; /*para que los hijos con el position absolute 
+    puedan ser absolute con respecto al padre*/
+} 
+
+.section1{
+    width:100px;
+    height:100px;
+    background-color: yellow;
+    position: relative;
+    /*relative para que se mueva un elemento n-pixels*/
+    /*positon no va solo, se le da otros valores*/
+    top: 50px;
+    left: 50px;
+    /*margin: 0 auto;*/
+}
+
+.section2{
+    width:100px;
+    height:100px;
+    background-color: steelblue;
+    position: relative;
+    top: 20px;
+    left: 10px;
+    /*z-index ayuda a que se muevan las imagenes 
+    con respecto al eje z que entra a la pantalla*/
+    z-index: -1;
+}
+
+.section3{
+    width:100px;
+    height:100px;
+    background-color: greenyellow;
+    position: absolute;
+    top:60px;
+    left:60px;
+}
+.fab{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: mediumblue;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    padding:18px;
+    text-align: center;
+    box-shadow: 3px 3px 6px black;
+    /*fixed es con respecto al navegador, no se mueve*/
+    position:fixed;
+    bottom: 60px;
+    right: 60px;
+}

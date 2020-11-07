@@ -1,0 +1,32 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.contenedor{
+    width: 600px;
+    height: 600px;
+    background-color: #555;
+    margin: 50px auto 0 auto;
+    box-shadow: 6px 6px 15px gray;
+}
+
+.circulo{
+    width: 100px;
+    height: 100px;
+    background-color: #ff2244;
+    border-radius: 50%;
+    position: relative;
+    /*Centrar modo 1: usando solo position*/
+    /*top: 50%;
+    left:50%;*/
+    /*modo 2: Centrar usando calc*/
+    top: calc(50% - 50px);
+    left:calc(50% - 50px);
+    /*modo 3: using translate*/
+    /*top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);*/
+}

@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.section1{
+    width: 500px;
+    height: 500px;
+    border-radius: 50px;
+    box-shadow: 0 0 15px lightgrey;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.button1{
+    margin-top: calc(50% - 15px);
+    border: none;
+    outline: none;
+    padding: 10px 12px;
+    border-radius: 5px;
+    background-image: linear-gradient(to top, #004e92, lightblue);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    /* nombredeanimación: <duracion> <aceleración>
+    <funcionamiento(infinite)> <delay> */
+    animation: animatebutton 2s ease-in-out infinite normal;
+}
+
+@keyframes animatebutton{
+    0%{
+        padding:10px 15px;
+    }
+    25%{
+        transform: rotate(90deg);
+        transition: button1 0.5s ease-in-out;
+    }
+    50%{
+        padding:10px 50px;
+        transform: scale(1.2);
+        transform: rotate(180deg);
+        transition: button1 0.5s ease-in-out;
+    }
+    75%{
+        transform: rotate(270deg);
+        transition: button1 0.5s ease-in-out;
+    }
+    100%{
+        padding: 10px 15px;
+        transform: rotate(360deg);
+        transition: button1 0.5s ease-in-out;
+    }
+}
+
